@@ -6,4 +6,4 @@ elif age >=18 and age < 50:
 elif age >= 50:
     print("Not Eligible")
 else:
-    print("Invalid Age")
+    print("Invalid Age And Age cannot be Negative")
