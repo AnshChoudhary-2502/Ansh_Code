@@ -1,0 +1,10 @@
+Name = Ansh Choudhary
+Age = 22
+Village = Mesan, Idar
+Status = Unmarried
+Job = Intern
+Vehicle No. : GJ09EA3303
+Purchase Period : Dhanteras
+
+Vehicle No. : GJ09EA3303
+Purchase Period : Dhanteras

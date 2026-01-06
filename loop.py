@@ -1,8 +1,10 @@
-i = int(input("Enter a number: "))
-for i in range(1,i+1):
-    print(i)
+X = str(input("Enter a string: "))
 
+for letter in X:
+    if letter == 'A' or letter == 'a' or letter == 'h' or letter == ' ':
+        continue
+    print('Current Letter :', letter)
 
-while i > 0:
-    print(i)
-    i -= 1
+while len(X) > 0:
+    print('Current String :', X)
+    break
