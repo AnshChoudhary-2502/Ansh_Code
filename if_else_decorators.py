@@ -1,5 +1,5 @@
 age = int(input("Your age is: "))
-
+user = str(input("Enter your name: "))
 is_member = bool(int(input("Are you a member? (1 for Yes, 0 for No): ")))
 
 if age >6 and age <22:
@@ -28,3 +28,18 @@ elif age >= 100:
 
 else:
     print("Invalid age entered")
+    
+
+# decorators are the additional functions which are usedf in modifying the other function and how it should behave 
+# there is a wrapper function which wraps the original function and madifies its behaviour
+def my_decorator(name):
+     def wrapper():
+         print("Thanks for shopping.")
+         name()
+         print("Have a nice day!")
+     return wrapper
+
+@my_decorator
+def name():
+    print(user)
+name()
